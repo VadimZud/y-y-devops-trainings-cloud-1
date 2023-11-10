@@ -12,7 +12,7 @@ COPY . .
 
 RUN CGO_ENABLED=0 go build -o /catgpt
 
-# Deploy the application binary into a lean image
+# Deploy the application binary into a lean image 
 FROM gcr.io/distroless/static-debian12:latest-amd64 AS build-release-stage
 
 WORKDIR /
