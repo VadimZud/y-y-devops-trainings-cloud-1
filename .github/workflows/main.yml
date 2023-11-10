@@ -19,11 +19,12 @@ jobs:
           yc-sa-json-credentials: ${{ secrets.YC_SA_JSON_CREDENTIALS }}
       
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
-      -
-        name: Build and push
+        uses: docker/setup-buildx-action@v3
+        
+      - name: Build and push
         uses: docker/build-push-action@v5
         with:
           context: catgpt
           push: true
+          provenance: false
           tags: cr.yandex/crpcq9dtvfqfvgb14jpq/catgpt:latest
