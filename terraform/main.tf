@@ -7,74 +7,82 @@ terraform {
   required_version = ">= 0.13"
 }
 
-provider "yandex" {
-  service_account_key_file = "./tf_key.json"
-  folder_id                = local.folder_id
-  zone                     = "ru-central1-a"
+variable "folder_id" {
+  type    = string
+  default = "b1gqo3fhddgjd47bbisd"
 }
 
-resource "yandex_vpc_network" "foo" {}
+provider "yandex" {
+  cloud_id  = "b1g0vh6uspd0m39d5er6"
+  folder_id = var.folder_id
+  zone      = "ru-central1-a"
+}
 
-resource "yandex_vpc_subnet" "foo" {
-  zone           = "ru-central1-a"
-  network_id     = yandex_vpc_network.foo.id
+data "yandex_container_registry" "docker_registry" {
+  name = "docker-registry"
+}
+
+data "yandex_compute_image" "container_optimized_image" {
+  family = "container-optimized-image"
+}
+
+resource "yandex_vpc_network" "catgpt" {
+  name = "catgpt"
+}
+
+resource "yandex_vpc_subnet" "catgpt" {
+  network_id     = yandex_vpc_network.catgpt.id
   v4_cidr_blocks = ["10.5.0.0/24"]
 }
 
-resource "yandex_container_registry" "registry1" {
-  name = "registry1"
+resource "yandex_iam_service_account" "catgpt_instance" {
+  name = "zudvadim-catgpt-instance"
 }
 
-locals {
-  folder_id = "<INSERT YOUR FOLDER ID>"
-  service-accounts = toset([
-    "catgpt-sa",
-  ])
-  catgpt-sa-roles = toset([
-    "container-registry.images.puller",
-    "monitoring.editor",
-  ])
-}
-resource "yandex_iam_service_account" "service-accounts" {
-  for_each = local.service-accounts
-  name     = each.key
-}
-resource "yandex_resourcemanager_folder_iam_member" "catgpt-roles" {
-  for_each  = local.catgpt-sa-roles
-  folder_id = local.folder_id
-  member    = "serviceAccount:${yandex_iam_service_account.service-accounts["catgpt-sa"].id}"
-  role      = each.key
+resource "yandex_resourcemanager_folder_iam_member" "puller" {
+  folder_id = var.folder_id
+  role      = "container-registry.images.puller"
+  member    = "serviceAccount:${yandex_iam_service_account.catgpt_instance.id}"
 }
 
-data "yandex_compute_image" "coi" {
-  family = "container-optimized-image"
-}
-resource "yandex_compute_instance" "catgpt-1" {
-    platform_id        = "standard-v2"
-    service_account_id = yandex_iam_service_account.service-accounts["catgpt-sa"].id
-    resources {
-      cores         = 2
-      memory        = 1
-      core_fraction = 5
+resource "yandex_compute_instance" "catgpt" {
+  name               = "catgpt"
+  platform_id        = "standard-v2"
+  service_account_id = yandex_iam_service_account.catgpt_instance.id
+
+  resources {
+    cores         = 2
+    memory        = 1
+    core_fraction = 5
+  }
+
+  scheduling_policy {
+    preemptible = true
+  }
+
+  boot_disk {
+    initialize_params {
+      type     = "network-hdd"
+      size     = "30"
+      image_id = data.yandex_compute_image.container_optimized_image.id
     }
-    scheduling_policy {
-      preemptible = true
-    }
-    network_interface {
-      subnet_id = "${yandex_vpc_subnet.foo.id}"
-      nat = true
-    }
-    boot_disk {
-      initialize_params {
-        type = "network-hdd"
-        size = "30"
-        image_id = data.yandex_compute_image.coi.id
-      }
-    }
-    metadata = {
-      docker-compose = file("${path.module}/docker-compose.yaml")
-      ssh-keys  = "ubuntu:${file("~/.ssh/devops_training.pub")}"
-    }
+  }
+
+  network_interface {
+    subnet_id = yandex_vpc_subnet.catgpt.id
+    nat       = true
+  }
+
+  metadata = {
+    docker-compose = templatefile("${path.module}/docker-compose.yaml.tftpl", { registry_id = data.yandex_container_registry.docker_registry.id })
+    ssh-keys       = "ubuntu:${file("~/.ssh/devops_training.pub")}"
+  }
+
+  lifecycle {
+    ignore_changes = [boot_disk[0].initialize_params[0].image_id]
+  }
 }
 
-
+output "catgpt_ip" {
+  value = yandex_compute_instance.catgpt.network_interface[0].nat_ip_address
+}
