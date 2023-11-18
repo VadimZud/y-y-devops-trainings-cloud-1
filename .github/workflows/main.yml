@@ -26,10 +26,8 @@ jobs:
         
       - name: Build and push
         uses: docker/build-push-action@v5
-        env:
-          YC_CR_REGISTRY: ${{ vars.YC_CR_REGISTRY }}
         with:
           context: catgpt
           push: true
           provenance: false
-          tags: cr.yandex/$YC_CR_REGISTRY/catgpt:latest
+          tags: cr.yandex/${{ vars.YC_CR_REGISTRY }}/catgpt:latest
