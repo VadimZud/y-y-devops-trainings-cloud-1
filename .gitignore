@@ -22,3 +22,4 @@ go.work
 
 **/.terraform/
 **/terraform.tfstate*
+**/.terraform.tfstate.lock.info

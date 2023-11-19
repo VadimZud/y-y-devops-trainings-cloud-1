@@ -5,3 +5,14 @@ services:
     image: "cr.yandex/${registry_id}/catgpt"
     restart: always
     network_mode: "host"
+  unified_agent:
+    container_name: unified_agent
+    image: "cr.yandex/yc/unified-agent"
+    network_mode: "host"
+    restart: always
+    ports:
+      - "16241:16241"
+    volumes:
+      - /etc/yandex/unified_agent.yml:/etc/yandex/unified_agent/conf.d/config.yml
+    environment:
+      FOLDER_ID: "${folder_id}"

@@ -1,0 +1,7 @@
+#cloud-config
+write_files:
+  - encoding: b64
+    content: ${unified_agent_config}
+    owner: root:root
+    path: /etc/yandex/unified_agent.yml 
+    permissions: '0644'
