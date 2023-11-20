@@ -1,0 +1,1723 @@
+{
+    "metrics": [
+        {
+            "name": "ua.errors",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_heap_sys_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.MajorPageFaults",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.LoadAverage15min",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.WriteWaitMillisecAvg",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.IoWaitTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.ReadWaitMillisec",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.MemTotal",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.Threads",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.promhttp_metric_handler_requests_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "code": "503",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.PageOuts",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.ProcsBlocked",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Committed_AS",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.Writes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_frees_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_buck_hash_sys_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_lookups_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_gc_duration_seconds",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "quantile": "0.5"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.filesystem.UsedB",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "mountpoint": "/etc/hosts"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.UpTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.filesystem.FreeB",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "mountpoint": "/etc/hosts"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.ReadBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SReclaimable",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.promhttp_metric_handler_requests_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "code": "503",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.NiceTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_mallocs_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.UserTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "ua.bytes_lost",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SwapOuts",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.http_response_count",
+            "labels": {
+                "handler": "/ping",
+                "code": "200",
+                "method": "get",
+                "service": "custom",
+                "host": "cl11aq221p8ebmi5s93t-ajob"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_gc_duration_seconds_count",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.SystemTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_alloc_bytes_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.IOMillisec",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.PageTables",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.filesystem.SizeB",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "mountpoint": "/etc/hosts"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.filesystem.INodeUsed",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "mountpoint": "/etc/hosts"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.IOServiceTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Writeback",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_mcache_inuse_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.La",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.promhttp_metric_handler_requests_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "code": "200",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_gc_sys_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.process_cpu_seconds_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.IOsInProgress",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_gc_duration_seconds",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "quantile": "0.75"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.IOMillisec",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.IrqTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.CommitLimit",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.StealTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.ProcsSinceBoot",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_heap_released_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SwapIns",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.http_response_count",
+            "labels": {
+                "handler": "/",
+                "code": "200",
+                "method": "get",
+                "service": "custom",
+                "host": "cl11aq221p8ebmi5s93t-ajob"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Cached",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.http_response_count",
+            "labels": {
+                "handler": "/",
+                "code": "200",
+                "method": "get",
+                "service": "custom",
+                "host": "cl11aq221p8ebmi5s93t-azex"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.filesystem.INodeFree",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "mountpoint": "/etc/hosts"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.GuestTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.Writes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.cpu.PhysicalCpuFrequency.Avg",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "PhysicalCpuId": "0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "ua.metrics_lost",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.GuestNiceTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Mapped",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.PageIns",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.ReadBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.LoadAverage1min",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "ua.messages_lost",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.ReadWaitMillisec",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_info",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "version": "go1.21.4",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.filesystem.INodeTotal",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "mountpoint": "/etc/hosts"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SwapCached",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.IdleTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_gc_duration_seconds",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "quantile": "0"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.ActiveAnon",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.enhanced_photo_count",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom",
+                "cat_type": "nocturnal"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.StealTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_heap_alloc_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "ua.metrics_lost",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Inactive",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.process_cpu_seconds_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "ua.messages_lost",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.IrqTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_gc_duration_seconds",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "quantile": "1"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.AnonPages",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.WriteWaitMillisec",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.promhttp_metric_handler_requests_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "code": "500",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.MemAvailable",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SwapIns",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_goroutines",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.TimeInQueueMillisec",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Buffers",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_alloc_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.Reads",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Slab",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_heap_objects",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.ProcsSinceBoot",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.promhttp_metric_handler_requests_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "code": "500",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.WriteBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.enhanced_photo_count",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom",
+                "cat_type": "diurnal"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.PageIns",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SwapTotal",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.cpu.PhysicalCpuFrequency.Min",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "PhysicalCpuId": "0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_gc_duration_seconds",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "quantile": "0.25"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Shmem",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_heap_idle_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_last_gc_time_seconds",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.GuestNiceTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.GuestTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.InactiveFile",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_gc_duration_seconds_sum",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.http_response_count",
+            "labels": {
+                "handler": "/",
+                "code": "200",
+                "method": "post",
+                "service": "custom",
+                "host": "cl11aq221p8ebmi5s93t-ajob"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.IdleTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_heap_inuse_bytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.http_response_count",
+            "labels": {
+                "handler": "/",
+                "code": "200",
+                "method": "post",
+                "service": "custom",
+                "host": "cl11aq221p8ebmi5s93t-azex"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.LoadAverage5min",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Unevictable",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.enhanced_photo_count",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "cat_type": "diurnal"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.PageOuts",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Active",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.promhttp_metric_handler_requests_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "code": "200",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.IoWaitTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "ua.bytes_lost",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.MajorPageFaults",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.proc.ProcsRunning",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.ReadWaitMillisecAvg",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SUnreclaim",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.UpTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.InactiveAnon",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.http_response_count",
+            "labels": {
+                "handler": "/ping",
+                "code": "200",
+                "method": "get",
+                "service": "custom",
+                "host": "cl11aq221p8ebmi5s93t-azex"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Mlocked",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.WriteBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.MemFree",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_lookups_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.cpu.PhysicalCpuFrequency.Max",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "PhysicalCpuId": "0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_frees_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxDrop",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.AnonHugePages",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.Reads",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "ua.errors",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.TimeInQueueMillisec",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SwapOuts",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxBytes",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.SwapFree",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "docker0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.RxErrs",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "intf": "lo",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.ActiveFile",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.UserTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_mallocs_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "ua.backlog",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom",
+                "scope": "health"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.NiceTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.net.Ifs.TxPackets",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "intf": "eth0",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.SystemTime",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.io.Disks.WriteWaitMillisec",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "disk": "vda",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.memory.Dirty",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_gc_duration_seconds_count",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "sys.system.UpTimeRaw",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-azex",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        },
+        {
+            "name": "catgpt.go_memstats_alloc_bytes_total",
+            "labels": {
+                "host": "cl11aq221p8ebmi5s93t-ajob",
+                "service": "custom"
+            },
+            "type": "DGAUGE"
+        }
+    ]
+}
